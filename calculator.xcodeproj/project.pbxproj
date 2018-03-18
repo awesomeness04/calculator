@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD32FAF8205EE5510055DA68 /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD32FAF7205EE5510055DA68 /* Operation.swift */; };
 		AD58E5DD204C7E0900B0C3DA /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD58E5DC204C7E0900B0C3DA /* Calculator.swift */; };
-		AD58E5DF204C817100B0C3DA /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD58E5DE204C817100B0C3DA /* Operation.swift */; };
 		ADB6E5582030D03300C6E8A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB6E5572030D03300C6E8A4 /* AppDelegate.swift */; };
 		ADB6E55A2030D03300C6E8A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB6E5592030D03300C6E8A4 /* ViewController.swift */; };
 		ADB6E55D2030D03300C6E8A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB6E55B2030D03300C6E8A4 /* Main.storyboard */; };
@@ -17,8 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD32FAF7205EE5510055DA68 /* Operation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
 		AD58E5DC204C7E0900B0C3DA /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
-		AD58E5DE204C817100B0C3DA /* Operation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
 		ADB6E5542030D03300C6E8A4 /* calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADB6E5572030D03300C6E8A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADB6E5592030D03300C6E8A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 				ADB6E5572030D03300C6E8A4 /* AppDelegate.swift */,
 				ADB6E5592030D03300C6E8A4 /* ViewController.swift */,
 				AD58E5DC204C7E0900B0C3DA /* Calculator.swift */,
-				AD58E5DE204C817100B0C3DA /* Operation.swift */,
+				AD32FAF7205EE5510055DA68 /* Operation.swift */,
 				ADB6E55B2030D03300C6E8A4 /* Main.storyboard */,
 				ADB6E55E2030D03300C6E8A4 /* Assets.xcassets */,
 				ADB6E5602030D03300C6E8A4 /* LaunchScreen.storyboard */,
@@ -145,7 +145,7 @@
 				ADB6E55A2030D03300C6E8A4 /* ViewController.swift in Sources */,
 				ADB6E5582030D03300C6E8A4 /* AppDelegate.swift in Sources */,
 				AD58E5DD204C7E0900B0C3DA /* Calculator.swift in Sources */,
-				AD58E5DF204C817100B0C3DA /* Operation.swift in Sources */,
+				AD32FAF8205EE5510055DA68 /* Operation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -27,6 +27,11 @@ class Calculator {
         inputDecimals = false
         
     }
+    
+    func enterDigit(digit: Int){
+        input = input * 10.0 + Double(digit)
+    }
+    
     func clear(){
         input=0
         output=0
@@ -38,31 +43,46 @@ class Calculator {
         input /= 100
     }
     func addition(){
-        if operation = .none {
+        if operation == .none {
             output = input
         }
         else {
-            output operation= input
+            output += input
             operation = .addition
         }
+        
+    }
     func subtraction(){
-        if operation = .none {
+        if operation == .none {
             output = input
         }
         else {
-            output operation= input
+            output -= input
             operation = .subtraction
         }
+        
+    }
     func multiplication(){
-        if operation = .none {
+        if operation == .none {
             output = input
         }
         else {
-            output operation= input
+            output *= input
             operation = .multiplication
         }
         
     }
+    func division(){
+        if operation == .none {
+            output = input
+        }
+        else {
+            output /= input
+            operation = .division
+        }
+        
+    }
+
     
     
 }
