@@ -15,7 +15,6 @@ class Calculator {
     var output: Double
     var operation: Operation
     var decimalPlace: Int
-    var inputDecimals: Bool
     
     
     init() {
@@ -24,12 +23,17 @@ class Calculator {
         output = 0.0
         operation = .none
         decimalPlace = 0
-        inputDecimals = false
         
     }
     
     func enterDigit(digit: Int){
-        input = input * 10.0 + Double(digit)
+        if decimalPlace == 0 {
+            input *= 10
+        }
+        input += Double(digit) / pow(10.0, Double(decimalPlace))
+        if decimalPlace > 0 {
+            decimalPlace += 1
+        }
     }
     
     func clear(){
@@ -82,10 +86,31 @@ class Calculator {
         }
         
     }
-
+    func decimal(){
+        if decimalPlace == 0 {
+            decimalPlace = 1
+        }
+        
+    }
+    func equal(){
+        if operation == addition {
+            output += input
+        }
+        if operation == subtraction {
+            output -= input
+        }
+        if operation == multiplication {
+            output *= input
+        }
+        if operation == division {
+            output /= input
+        }
     
-    
+    }
 }
+    
+
+
 
 
 

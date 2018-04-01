@@ -10,6 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var label: UILabel!
+    let calculator = Calculator()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -22,11 +25,35 @@ class ViewController: UIViewController {
     
     
     @IBAction func digitPressed(_ sender: UIButton) {
+        calculator.enterDigit(digit: sender.tag)
+        updateInputLabel()
     }
     
-
-    @IBAction func digitPressed(_ sender: UIButton) { 
+    @IBAction func clearPressed(_ sender: UIButton) {
+        calculator.clear()
+        updateInputLabel()
+    }
+    @IBAction func signPressed(_ sender: UIButton) {
+        calculator.sign()
+        updateInputLabel()
+    }
+    @IBAction func percentPressed(_ sender: UIButton) {
+        calculator.percent()
+        updateInputLabel()
+    }
+    @IBAction func decimalPressed(_ sender: UIButton) {
+        calculator.decimal()
+        updateInputLabel()
+    }
+    @IBAction func additionPressed(_ sender: UIButton) {
+        calculator.addition()
+        updateInputLabel()
     }
     
+    
+    
+    func updateInputLabel() {
+        label.text = String(calculator.input)
+    }
 }
 
