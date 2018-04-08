@@ -53,6 +53,9 @@
                                                 <rect key="frame" x="216" y="0.0" width="72" height="88"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                                 <state key="normal" title="/"/>
+                                                <connections>
+                                                    <action selector="divisionPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zSO-zA-1lN"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -87,6 +90,9 @@
                                                 <rect key="frame" x="216" y="0.0" width="72" height="88"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                                 <state key="normal" title="x"/>
+                                                <connections>
+                                                    <action selector="multiplicationPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T5h-Kd-8es"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -121,6 +127,9 @@
                                                 <rect key="frame" x="216" y="0.0" width="72" height="87.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                                 <state key="normal" title="-"/>
+                                                <connections>
+                                                    <action selector="subtractionPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="am6-vV-PUu"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -184,6 +193,9 @@
                                                 <rect key="frame" x="216" y="0.0" width="72" height="88"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                                 <state key="normal" title="="/>
+                                                <connections>
+                                                    <action selector="equalPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="J0d-u9-Tbz"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>

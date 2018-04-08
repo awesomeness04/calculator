@@ -39,6 +39,8 @@ class Calculator {
     func clear(){
         input=0
         output=0
+        operation = .none
+        decimalPlace = 0
     }
     func sign() {
         input *= -1
@@ -49,41 +51,48 @@ class Calculator {
     func addition(){
         if operation == .none {
             output = input
+            input = 0
         }
         else {
             output += input
-            operation = .addition
+            input = 0
         }
-        
+        operation = .addition
     }
     func subtraction(){
         if operation == .none {
             output = input
+            input = 0
         }
         else {
             output -= input
-            operation = .subtraction
+            input = 0
         }
+        operation = .subtraction
         
     }
     func multiplication(){
         if operation == .none {
             output = input
+            input = 0
         }
         else {
             output *= input
-            operation = .multiplication
+            input = 0
         }
+        operation = .multiplication
         
     }
     func division(){
         if operation == .none {
             output = input
+            input = 0
         }
         else {
             output /= input
-            operation = .division
+            input = 0
         }
+        operation = .division
         
     }
     func decimal(){
@@ -93,16 +102,16 @@ class Calculator {
         
     }
     func equal(){
-        if operation == addition {
+        if operation == .addition {
             output += input
         }
-        if operation == subtraction {
+        if operation == .subtraction {
             output -= input
         }
-        if operation == multiplication {
+        if operation == .multiplication {
             output *= input
         }
-        if operation == division {
+        if operation == .division {
             output /= input
         }
     
