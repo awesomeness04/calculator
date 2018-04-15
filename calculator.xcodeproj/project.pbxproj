@@ -14,6 +14,7 @@
 		ADB6E55D2030D03300C6E8A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB6E55B2030D03300C6E8A4 /* Main.storyboard */; };
 		ADB6E55F2030D03300C6E8A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADB6E55E2030D03300C6E8A4 /* Assets.xcassets */; };
 		ADB6E5622030D03300C6E8A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB6E5602030D03300C6E8A4 /* LaunchScreen.storyboard */; };
+		ADC8F7D52083D148004AF29D /* Courgette-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADC8F7D42083D148004AF29D /* Courgette-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		ADB6E55E2030D03300C6E8A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADB6E5612030D03300C6E8A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADB6E5632030D03300C6E8A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADC8F7D42083D148004AF29D /* Courgette-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Courgette-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		ADB6E5562030D03300C6E8A4 /* calculator */ = {
 			isa = PBXGroup;
 			children = (
+				ADC8F7D42083D148004AF29D /* Courgette-Regular.ttf */,
 				ADB6E5572030D03300C6E8A4 /* AppDelegate.swift */,
 				ADB6E5592030D03300C6E8A4 /* ViewController.swift */,
 				AD58E5DC204C7E0900B0C3DA /* Calculator.swift */,
@@ -131,6 +134,7 @@
 			files = (
 				ADB6E5622030D03300C6E8A4 /* LaunchScreen.storyboard in Resources */,
 				ADB6E55F2030D03300C6E8A4 /* Assets.xcassets in Resources */,
+				ADC8F7D52083D148004AF29D /* Courgette-Regular.ttf in Resources */,
 				ADB6E55D2030D03300C6E8A4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
