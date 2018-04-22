@@ -20,7 +20,7 @@
 /* Begin PBXFileReference section */
 		AD32FAF7205EE5510055DA68 /* Operation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
 		AD58E5DC204C7E0900B0C3DA /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
-		ADB6E5542030D03300C6E8A4 /* calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADB6E5542030D03300C6E8A4 /* NH Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NH Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADB6E5572030D03300C6E8A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADB6E5592030D03300C6E8A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ADB6E55C2030D03300C6E8A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 		ADB6E5552030D03300C6E8A4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ADB6E5542030D03300C6E8A4 /* calculator.app */,
+				ADB6E5542030D03300C6E8A4 /* NH Calculator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,9 +76,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ADB6E5532030D03300C6E8A4 /* calculator */ = {
+		ADB6E5532030D03300C6E8A4 /* NH Calculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ADB6E5662030D03300C6E8A4 /* Build configuration list for PBXNativeTarget "calculator" */;
+			buildConfigurationList = ADB6E5662030D03300C6E8A4 /* Build configuration list for PBXNativeTarget "NH Calculator" */;
 			buildPhases = (
 				ADB6E5502030D03300C6E8A4 /* Sources */,
 				ADB6E5512030D03300C6E8A4 /* Frameworks */,
@@ -88,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = calculator;
+			name = "NH Calculator";
 			productName = calculator;
-			productReference = ADB6E5542030D03300C6E8A4 /* calculator.app */;
+			productReference = ADB6E5542030D03300C6E8A4 /* NH Calculator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +100,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Nick Inc.";
 				TargetAttributes = {
 					ADB6E5532030D03300C6E8A4 = {
@@ -109,7 +109,7 @@
 					};
 				};
 			};
-			buildConfigurationList = ADB6E54F2030D03300C6E8A4 /* Build configuration list for PBXProject "calculator" */;
+			buildConfigurationList = ADB6E54F2030D03300C6E8A4 /* Build configuration list for PBXProject "NH Calculator" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -122,7 +122,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ADB6E5532030D03300C6E8A4 /* calculator */,
+				ADB6E5532030D03300C6E8A4 /* NH Calculator */,
 			);
 		};
 /* End PBXProject section */
@@ -189,6 +189,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -196,6 +197,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -246,6 +248,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -253,6 +256,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -313,7 +317,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ADB6E54F2030D03300C6E8A4 /* Build configuration list for PBXProject "calculator" */ = {
+		ADB6E54F2030D03300C6E8A4 /* Build configuration list for PBXProject "NH Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ADB6E5642030D03300C6E8A4 /* Debug */,
@@ -322,7 +326,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ADB6E5662030D03300C6E8A4 /* Build configuration list for PBXNativeTarget "calculator" */ = {
+		ADB6E5662030D03300C6E8A4 /* Build configuration list for PBXNativeTarget "NH Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ADB6E5672030D03300C6E8A4 /* Debug */,
